@@ -1,0 +1,180 @@
+@media screen and (max-width: 1150px) {
+
+    .common-text{
+        grid-column: 4/10;
+        grid-row: 3;
+        margin: 1rem;
+    }
+    .content{
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    
+    .nav-menu{
+        display: block;
+    }
+
+    .nav .list-link{
+        width: 25vw;
+        height: calc(100% + 300px);
+
+        background: hsla(239, 37%, 24%, .705);
+        
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        text-align: center;
+
+        margin-top: 35px;
+        transform: translateX(170%);
+        transition: 1s all;
+        position: absolute;
+        right: 0;
+    }
+    .nav .menu-toggle{
+        transform: translateX(15%);
+    }
+    .login{
+        display: none;
+    }
+    .btn{
+        height: 50px;
+        border: 2px solid hsla(272, 57%, 55%, 1);
+    }
+    .nav .list-link .login-link{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    /* ------   MAIN COMMON CONTENT   ----- */
+
+    .content{
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+
+    }
+    .common-text{
+        grid-column: 3/10;
+        grid-row: 3;
+        margin: 1rem;
+    }
+
+    .hero-text h1{
+        font-size: 60px;
+    }
+    
+    .hero-text h2{
+        font-size: 60px;
+    }
+    
+    .hero-text .p {
+        background: hsla(239, 37%, 24%, .7);
+        border-radius: .5rem;
+        width: calc(70vw + 25px);
+        align-self: center;
+        margin-top: 1.5rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .nav .list-link{
+        width: 30vw;
+    }
+    
+    .content .btn{
+        margin-top: 2rem;
+
+    }
+
+
+
+@media screen and (max-width: 610px) {
+    .content{
+        height: 110vh;
+    }
+    .nav .list-link{
+        width: 35vw;
+    }
+    .common-text{
+        grid-column: 3/10;
+        grid-row: 2;
+    }
+}
+
+
+@media screen and (max-width: 440px) {
+    .nav .list-link{
+        width: 45vw;
+    }
+
+    .hero-text h1{
+        font-size: 40px;
+    }
+    
+    .hero-text h2{
+        font-size: 40px;
+    }
+    .content{
+        height: 105vh;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .content{
+        height: 110vh;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .content{
+        height: 115vh;
+    }
+    
+    .nav .list-link{
+        width: 65vw;
+    }
+}
+
+
+
+@media screen and (max-width: 325px) {
+    .content{
+        height: 120vh;
+    }
+        
+    .hero-text h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+
+}
+
+@media screen and (max-width: 320px) {
+    .content{
+        height: 150vh;
+    }
+    
+}
+
+}
+
+@media screen and (max-width: 280px) {
+    .nav .list-link{
+        width: 25vh;
+    }    
+    
+    .content{
+        height: 145vh;
+    }
+}
